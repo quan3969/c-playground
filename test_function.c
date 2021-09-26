@@ -20,13 +20,25 @@ void tf_test( void )
 
     // 先存到局部变量中，分多次遍历保存所需要的数据。
     int numread = 0;
-    char bbuffer[1048576]; // 预留 1024 *1024 Byte = 1 MB
+    char bbuffer[2097152]; // 预留 2 * 1024 * 1024 Byte = 1 MB
     char *pdest;
     int  result;
     char str[] = "Instance ID:";
-    numread = fread( bbuffer, sizeof( char ), 1048576, pPipe );
+
+    // 
+    struct instance
+    {
+        int num;
+        char name[64];
+        char version[64];
+        char used[64];
+        char instance_id[64];
+        char device_name[64];
+        char device_status[64];
+    };
+    numread = fread( bbuffer, sizeof( char ), 2097152, pPipe );
     pdest = strstr( bbuffer, str );
-    result = (int)(pdest - bbuffer + 1);
+    result = ( int )( pdest - bbuffer + 1 );
     _pclose( pPipe );
 
 }
