@@ -1,0 +1,2440 @@
+Microsoft PnP Utility
+
+Instance ID:                ACPI\PNP0C02\1
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C02\2
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C02\5
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                UEFI\RES_{617ef07c-d21d-48dc-b783-8296ced280f0}\0
+Device Description:         System Firmware
+Class Name:                 Firmware
+Class GUID:                 {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_firmware.inf
+Matching Drivers:
+    Driver Name:            c_firmware.inf
+    Provider Name:          Microsoft
+    Class Name:             Firmware
+    Class GUID:             {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     UEFI\CC_00010001
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            c_firmware.inf
+    Provider Name:          Microsoft
+    Class Name:             Firmware
+    Class GUID:             {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     GenFirmwareResource
+    Driver Rank:            00FF3001
+    Driver Status:          Outranked
+
+Instance ID:                HID\ZNT0001&Col02\5&374ce970&0&0001
+Device Description:         Microsoft Input Configuration Device
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                mtconfig.inf
+Matching Drivers:
+    Driver Name:            mtconfig.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_UP:000D_U:000E
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1005
+    Driver Status:          Outranked
+
+Instance ID:                SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+Device Description:         Microsoft Streaming Service Proxy
+Class Name:                 MEDIA
+Class GUID:                 {4d36e96c-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Disconnected
+Driver Name:                ksfilter.inf
+Matching Drivers:
+    Driver Name:            ksfilter.inf
+    Provider Name:          Microsoft
+    Class Name:             MEDIA
+    Class GUID:             {4d36e96c-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SW\{96E080C7-143C-11D1-B40F-00A0C9223196}
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C09\1
+Device Description:         Microsoft ACPI-Compliant Embedded Controller
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C09
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_144D&DEV_A808&SUBSYS_A801144D&REV_00\4&2498e50c&0&0030
+Device Description:         Standard NVM Express Controller
+Class Name:                 SCSIAdapter
+Class GUID:                 {4d36e97b-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Standard NVM Express Controller
+Status:                     Started
+Driver Name:                stornvme.inf
+Matching Drivers:
+    Driver Name:            stornvme.inf
+    Provider Name:          Microsoft
+    Class Name:             SCSIAdapter
+    Class GUID:             {4d36e97b-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.132
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_010802
+    Driver Rank:            00FF2006
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                UEFI\RES_{75c5b4a3-0329-488a-ac14-f02e4dfee35d}\0
+Device Description:         Device Firmware
+Class Name:                 Firmware
+Class GUID:                 {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_firmware.inf
+Matching Drivers:
+    Driver Name:            c_firmware.inf
+    Provider Name:          Microsoft
+    Class Name:             Firmware
+    Class GUID:             {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     UEFI\CC_00010002
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            c_firmware.inf
+    Provider Name:          Microsoft
+    Class Name:             Firmware
+    Class GUID:             {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     GenFirmwareResource
+    Driver Rank:            00FF3001
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_9A11&SUBSYS_C840144D&REV_01\3&11583659&0&40
+Device Description:         Base System Device
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\PNP0C0A\1
+Device Description:         Microsoft ACPI-Compliant Control Method Battery
+Class Name:                 Battery
+Class GUID:                 {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                cmbatt.inf
+Matching Drivers:
+    Driver Name:            cmbatt.inf
+    Provider Name:          Microsoft
+    Class Name:             Battery
+    Class GUID:             {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\PNP0C0A
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\ACPI000E\1
+Device Description:         ACPI Wake Alarm
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                acpitime.inf
+Matching Drivers:
+    Driver Name:            acpitime.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *ACPI000E
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\ACPI000C\2&daba3ff&0
+Device Description:         ACPI Processor Aggregator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                acpipagr.inf
+Matching Drivers:
+    Driver Name:            acpipagr.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *ACPI000C
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SWD\PRINTENUM\PrintQueues
+Device Description:         Root Print Queue
+Class Name:                 PrintQueue
+Class GUID:                 {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                printqueue.inf
+Matching Drivers:
+    Driver Name:            printqueue.inf
+    Provider Name:          Microsoft
+    Class Name:             PrintQueue
+    Class GUID:             {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PRINTENUM\LocalPrintQueue
+    Driver Rank:            00000000
+    Driver Status:          Best Ranked
+
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3000
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_A0C8&SUBSYS_C840144D&REV_20\3&11583659&0&FB
+Device Description:         Multimedia Audio Controller
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ROOT\volmgr\0000
+Device Description:         Volume Manager
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                volmgr.inf
+Matching Drivers:
+    Driver Name:            volmgr.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\VOLMGR
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_A0A3&SUBSYS_C840144D&REV_20\3&11583659&0&FC
+Device Description:         SM Bus Controller
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\PNP0100\4&2911319&0
+Device Description:         System timer
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0100
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                USB\ROOT_HUB30\4&1accdaab&0&0
+Device Description:         USB Root Hub (USB 3.0)
+Class Name:                 USB
+Class GUID:                 {36fc9e60-c465-11cf-8056-444553540000}
+Manufacturer Name:          (Standard USB HUBs)
+Status:                     Started
+Driver Name:                usbhub3.inf
+Matching Drivers:
+    Driver Name:            usbhub3.inf
+    Provider Name:          Microsoft
+    Class Name:             USB
+    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}
+    Driver Version:         07/03/2021 10.0.22000.65
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\ROOT_HUB30
+    Driver Rank:            00800002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\BasicDisplay\0000
+Device Description:         Microsoft Basic Display Driver
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard display types)
+Status:                     Started
+Driver Name:                basicdisplay.inf
+Matching Drivers:
+    Driver Name:            basicdisplay.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\BasicDisplay
+    Driver Rank:            00FB0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SWD\PRINTENUM\{A2E4DE3A-B928-402F-9350-ED911FD51CE7}
+Device Description:         Microsoft Print to PDF
+Class Name:                 PrintQueue
+Class GUID:                 {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                printqueue.inf
+Matching Drivers:
+    Driver Name:            printqueue.inf
+    Provider Name:          Microsoft
+    Class Name:             PrintQueue
+    Class GUID:             {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PRINTENUM\LocalPrintQueue
+    Driver Rank:            00000001
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            oem0.inf
+    Original Name:          prnms009.inf
+    Provider Name:          Microsoft
+    Class Name:             Printer
+    Class GUID:             {4d36e979-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {084f01fa-e634-4d77-83ee-074817c03581}
+    Driver Rank:            00FF0002
+    Driver Status:          Outranked
+
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3001
+    Driver Status:          Outranked
+
+Instance ID:                SWD\PRINTENUM\{33019614-174C-46DD-B44D-10D344B98C43}
+Device Description:         Fax
+Class Name:                 PrintQueue
+Class GUID:                 {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                printqueue.inf
+Matching Drivers:
+    Driver Name:            printqueue.inf
+    Provider Name:          Microsoft
+    Class Name:             PrintQueue
+    Class GUID:             {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PRINTENUM\LocalPrintQueue
+    Driver Rank:            00000001
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            prnms002.inf
+    Provider Name:          Microsoft
+    Class Name:             Printer
+    Class GUID:             {4d36e979-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.100
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     microsoftmicrosoft_s7d14
+    Driver Rank:            00FF0002
+    Driver Status:          Outranked
+
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3001
+    Driver Status:          Outranked
+
+Instance ID:                ROOT\hvservice\0000
+Device Description:         Microsoft Hypervisor Service
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                hvservice.inf
+Matching Drivers:
+    Driver Name:            hvservice.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.100
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\hvservice
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_9A25&SUBSYS_00000000&REV_01\3&11583659&0&39
+Device Description:         PCI Express Root Port
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                pci.inf
+Matching Drivers:
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604&DT_4
+    Driver Rank:            00FF2005
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604
+    Driver Rank:            00FF2006
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\ThermalZone\TZ00
+Device Description:         ACPI Thermal Zone
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\ThermalZone
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\ThermalZone\TZ01
+Device Description:         ACPI Thermal Zone
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\ThermalZone
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INT3F0D\4&2911319&0
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C14\0
+Device Description:         Microsoft Windows Management Interface for ACPI
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                wmiacpi.inf
+Matching Drivers:
+    Driver Name:            wmiacpi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C14
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INT33D3\5&15d725f4&0
+Device Description:         GPIO Laptop or Slate Indicator Driver
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                msgpiowin32.inf
+Matching Drivers:
+    Driver Name:            msgpiowin32.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PNP0C60
+    Driver Rank:            00FF2001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SWD\PRINTENUM\{17B59EDE-44DA-4959-93AA-584101167341}
+Device Description:         Microsoft XPS Document Writer
+Class Name:                 PrintQueue
+Class GUID:                 {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                printqueue.inf
+Matching Drivers:
+    Driver Name:            printqueue.inf
+    Provider Name:          Microsoft
+    Class Name:             PrintQueue
+    Class GUID:             {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PRINTENUM\LocalPrintQueue
+    Driver Rank:            00000001
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            oem1.inf
+    Original Name:          prnms001.inf
+    Provider Name:          Microsoft
+    Class Name:             Printer
+    Class GUID:             {4d36e979-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {0f4130dd-19c7-7ab6-99a1-980f03b2ee4e}
+    Driver Rank:            00FF0002
+    Driver Status:          Outranked
+
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3001
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\USBC000\0
+Device Description:         UCM-UCSI ACPI Device
+Class Name:                 UCM
+Class GUID:                 {e6f1aa1c-7f3b-4473-b2e8-c97d8ac71d53}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                UcmUcsiAcpiClient.inf
+Matching Drivers:
+    Driver Name:            UcmUcsiAcpiClient.inf
+    Provider Name:          Microsoft
+    Class Name:             UCM
+    Class GUID:             {e6f1aa1c-7f3b-4473-b2e8-c97d8ac71d53}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\USBC000
+    Driver Rank:            00800001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HID\ZNT0001&Col03\5&374ce970&0&0002
+Device Description:         HID-compliant touch pad
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                input.inf
+Matching Drivers:
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_UP:000D_U:0005
+    Driver Rank:            00FF1004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1005
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_A0FC&SUBSYS_C840144D&REV_20\3&11583659&0&90
+Device Description:         PCI Serial Port
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ROOT\VID\0000
+Device Description:         Microsoft Hyper-V Virtualization Infrastructure Driver
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                wvid.inf
+Matching Drivers:
+    Driver Name:            wvid.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.71
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\VID
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SWD\WPDBUSENUM\{8b8e48ce-1ffa-11ec-86cc-34cff655bb21}#0000000000100000
+Device Description:         TITAN
+Class Name:                 WPD
+Class GUID:                 {eec5ad98-8080-425f-922a-dabf3de3f69a}
+Manufacturer Name:          JM583   
+Status:                     Disconnected
+Driver Name:                wpdfs.inf
+Matching Drivers:
+    Driver Name:            wpdfs.inf
+    Provider Name:          Microsoft
+    Class Name:             WPD
+    Class GUID:             {eec5ad98-8080-425f-922a-dabf3de3f69a}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     wpdbusenum\fs
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0103\0
+Device Description:         High precision event timer
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0103
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\CompositeBus\0000
+Device Description:         Composite Bus Enumerator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                compositebus.inf
+Matching Drivers:
+    Driver Name:            compositebus.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\CompositeBus
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\vdrvroot\0000
+Device Description:         Microsoft Virtual Drive Enumerator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                vdrvroot.inf
+Matching Drivers:
+    Driver Name:            vdrvroot.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\vdrvroot
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\ACPI0003\2&daba3ff&0
+Device Description:         Microsoft AC Adapter
+Class Name:                 Battery
+Class GUID:                 {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                cmbatt.inf
+Matching Drivers:
+    Driver Name:            cmbatt.inf
+    Provider Name:          Microsoft
+    Class Name:             Battery
+    Class GUID:             {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\ACPI0003
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\spaceport\0000
+Device Description:         Microsoft Storage Spaces Controller
+Class Name:                 SCSIAdapter
+Class GUID:                 {4d36e97b-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                spaceport.inf
+Matching Drivers:
+    Driver Name:            spaceport.inf
+    Provider Name:          Microsoft
+    Class Name:             SCSIAdapter
+    Class GUID:             {4d36e97b-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.71
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     Root\Spaceport
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_0
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_1
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_2
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_3
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_4
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_5
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_6
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\GenuineIntel_-_Intel64_Family_6_Model_140_-_11th_Gen_Intel(R)_Core(TM)_i7-1165G7_@_2.80GHz\_7
+Device Description:         11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+Class Name:                 Processor
+Class GUID:                 {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+Manufacturer Name:          Intel
+Status:                     Started
+Driver Name:                cpu.inf
+Matching Drivers:
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\GenuineIntel_-_Intel64
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            cpu.inf
+    Provider Name:          Microsoft
+    Class Name:             Processor
+    Class GUID:             {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+    Driver Version:         04/21/2009 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\Processor
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                STORAGE\Volume\{c09ce168-2002-11ec-86ca-806e6f6e6963}#0000000011500000
+Device Description:         Volume
+Class Name:                 Volume
+Class GUID:                 {71a27cdd-812a-11d0-bec7-08002be2092f}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                volume.inf
+Matching Drivers:
+    Driver Name:            volume.inf
+    Provider Name:          Microsoft
+    Class Name:             Volume
+    Class GUID:             {71a27cdd-812a-11d0-bec7-08002be2092f}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     STORAGE\Volume
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_9A13&SUBSYS_C840144D&REV_01\3&11583659&0&68
+Device Description:         Intel(R) USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+Class Name:                 USB
+Class GUID:                 {36fc9e60-c465-11cf-8056-444553540000}
+Manufacturer Name:          Generic USB xHCI Host Controller
+Status:                     Started
+Driver Name:                usbxhci.inf
+Matching Drivers:
+    Driver Name:            usbxhci.inf
+    Provider Name:          Microsoft
+    Class Name:             USB
+    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}
+    Driver Version:         06/04/2021 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0C0330
+    Driver Rank:            00802005
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\ZNT0001\10
+Device Description:         I2C HID Device
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                hidi2c.inf
+Matching Drivers:
+    Driver Name:            hidi2c.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\PNP0C50
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\KDNIC\0000
+Device Description:         Microsoft Kernel Debug Network Adapter
+Class Name:                 Net
+Class GUID:                 {4d36e972-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                kdnic.inf
+Matching Drivers:
+    Driver Name:            kdnic.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     root\kdnic
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_9A49&SUBSYS_C840144D&REV_01\3&11583659&0&10
+Device Description:         Microsoft Basic Display Adapter
+Class Name:                 Display
+Class GUID:                 {4d36e968-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard display types)
+Status:                     Started
+Driver Name:                display.inf
+Matching Drivers:
+    Driver Name:            display.inf
+    Provider Name:          Microsoft
+    Class Name:             Display
+    Class GUID:             {4d36e968-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0300
+    Driver Rank:            00FB2008
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_2723&SUBSYS_008C8086&REV_1A\4&1f7587fd&0&00E0
+Device Description:         Intel(R) Wi-Fi 6 AX200 160MHz
+Class Name:                 Net
+Class GUID:                 {4d36e972-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Intel Corporation
+Status:                     Started
+Driver Name:                netwtw10.inf
+Matching Drivers:
+    Driver Name:            netwtw10.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         01/17/2021 22.0.1.5
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\VEN_8086&DEV_2723&SUBSYS_008C8086
+    Driver Rank:            00FC1001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C14\3&11583659&0&0
+Device Description:         Microsoft Windows Management Interface for ACPI
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                wmiacpi.inf
+Matching Drivers:
+    Driver Name:            wmiacpi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C14
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                USB\VID_1C7A&PID_057E\2AA9E1228C73
+Device Description:         EgisTec EH57E
+Class Name:                 USBDevice
+Class GUID:                 {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Manufacturer Name:          WinUsb Device
+Status:                     Started
+Driver Name:                winusb.inf
+Matching Drivers:
+    Driver Name:            winusb.inf
+    Provider Name:          Microsoft
+    Class Name:             USBDevice
+    Class GUID:             {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\MS_COMP_WINUSB
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C0D\2&daba3ff&0
+Device Description:         ACPI Lid
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C0D
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                STORAGE\Volume\{c09ce168-2002-11ec-86ca-806e6f6e6963}#0000003B7F200000
+Device Description:         Volume
+Class Name:                 Volume
+Class GUID:                 {71a27cdd-812a-11d0-bec7-08002be2092f}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                volume.inf
+Matching Drivers:
+    Driver Name:            volume.inf
+    Provider Name:          Microsoft
+    Class Name:             Volume
+    Class GUID:             {71a27cdd-812a-11d0-bec7-08002be2092f}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     STORAGE\Volume
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C02\PCHRESV
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HID\INT33D2&Col01\6&231babf5&0&0000
+Device Description:         HID Keyboard Device
+Class Name:                 Keyboard
+Class GUID:                 {4d36e96b-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard keyboards)
+Status:                     Started
+Driver Name:                keyboard.inf
+Matching Drivers:
+    Driver Name:            keyboard.inf
+    Provider Name:          Microsoft
+    Class Name:             Keyboard
+    Class GUID:             {4d36e96b-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_SYSTEM_KEYBOARD
+    Driver Rank:            00FF1003
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1005
+    Driver Status:          Outranked
+
+Instance ID:                USB\VID_152D&PID_0583\MSFT300123456789ABC
+Device Description:         USB Attached SCSI (UAS) Mass Storage Device
+Class Name:                 SCSIAdapter
+Class GUID:                 {4d36e97b-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          USB Attached SCSI (UAS) Compatible Device
+Status:                     Disconnected
+Driver Name:                uaspstor.inf
+Matching Drivers:
+    Driver Name:            uaspstor.inf
+    Provider Name:          Microsoft
+    Class Name:             SCSIAdapter
+    Class GUID:             {4d36e97b-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\Class_08&SubClass_06&Prot_62
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                STORAGE\Volume\{8b8e48ce-1ffa-11ec-86cc-34cff655bb21}#0000000000100000
+Device Description:         Volume
+Class Name:                 Volume
+Class GUID:                 {71a27cdd-812a-11d0-bec7-08002be2092f}
+Manufacturer Name:          Microsoft
+Status:                     Disconnected
+Driver Name:                volume.inf
+Matching Drivers:
+    Driver Name:            volume.inf
+    Provider Name:          Microsoft
+    Class Name:             Volume
+    Class GUID:             {71a27cdd-812a-11d0-bec7-08002be2092f}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     STORAGE\Volume
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SCSI\Disk&Ven_JM583&Prod_\6&20bc1583&0&000000
+Device Description:         JM583  SCSI Disk Device
+Class Name:                 DiskDrive
+Class GUID:                 {4d36e967-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard disk drives)
+Status:                     Disconnected
+Driver Name:                disk.inf
+Matching Drivers:
+    Driver Name:            disk.inf
+    Provider Name:          Microsoft
+    Class Name:             DiskDrive
+    Class GUID:             {4d36e967-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     GenDisk
+    Driver Rank:            00FF0005
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HID\ZNT0001&Col04\5&374ce970&0&0003
+Device Description:         HID-compliant vendor-defined device
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                input.inf
+Matching Drivers:
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_UPR:FF00-FFFF
+    Driver Rank:            00FF1005
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1006
+    Driver Status:          Outranked
+
+Instance ID:                ROOT\UMBUS\0000
+Device Description:         UMBus Root Bus Enumerator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                umbus.inf
+Matching Drivers:
+    Driver Name:            umbus.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     root\umbus
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\CAD\0000
+Device Description:         Charge Arbitration Driver
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                ChargeArbitration.inf
+Matching Drivers:
+    Driver Name:            ChargeArbitration.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\CAD
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C14\SampleDev
+Device Description:         Microsoft Windows Management Interface for ACPI
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                wmiacpi.inf
+Matching Drivers:
+    Driver Name:            wmiacpi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C14
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_A0ED&SUBSYS_C840144D&REV_20\3&11583659&0&A0
+Device Description:         Intel(R) USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+Class Name:                 USB
+Class GUID:                 {36fc9e60-c465-11cf-8056-444553540000}
+Manufacturer Name:          Generic USB xHCI Host Controller
+Status:                     Started
+Driver Name:                usbxhci.inf
+Matching Drivers:
+    Driver Name:            usbxhci.inf
+    Provider Name:          Microsoft
+    Class Name:             USB
+    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}
+    Driver Version:         06/04/2021 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0C0330
+    Driver Rank:            00802005
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\5&253c70ab&0&11
+Device Description:         Microsoft Wi-Fi Direct Virtual Adapter
+Class Name:                 Net
+Class GUID:                 {4d36e972-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                netvwifimp.inf
+Matching Drivers:
+    Driver Name:            netvwifimp.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            netvwifimp.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\5&253c70ab&0&12
+Device Description:         Microsoft Wi-Fi Direct Virtual Adapter #2
+Class Name:                 Net
+Class GUID:                 {4d36e972-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                netvwifimp.inf
+Matching Drivers:
+    Driver Name:            netvwifimp.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            netvwifimp.inf
+    Provider Name:          Microsoft
+    Class Name:             Net
+    Class GUID:             {4d36e972-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+Device Description:         Microsoft Radio Device Enumeration Bus
+Class Name:                 SoftwareDevice
+Class GUID:                 {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_swdevice.inf
+Matching Drivers:
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                STORAGE\Volume\{c09ce168-2002-11ec-86ca-806e6f6e6963}#0000000010500000
+Device Description:         Volume
+Class Name:                 Volume
+Class GUID:                 {71a27cdd-812a-11d0-bec7-08002be2092f}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                volume.inf
+Matching Drivers:
+    Driver Name:            volume.inf
+    Provider Name:          Microsoft
+    Class Name:             Volume
+    Class GUID:             {71a27cdd-812a-11d0-bec7-08002be2092f}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     STORAGE\Volume
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0B00\4&2911319&0
+Device Description:         System CMOS/real time clock
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0B00
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SWD\MSDAS\{ce958e9a-424f-4c88-86f4-11314821e75a}
+Device Description:         Microsoft Device Association Root Enumerator
+Class Name:                 SoftwareDevice
+Class GUID:                 {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_swdevice.inf
+Matching Drivers:
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\ACPI_HAL\0000
+Device Description:         ACPI x64-based PC
+Class Name:                 Computer
+Class GUID:                 {4d36e966-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard computers)
+Status:                     Started
+Driver Name:                hal.inf
+Matching Drivers:
+    Driver Name:            hal.inf
+    Provider Name:          Microsoft
+    Class Name:             Computer
+    Class GUID:             {4d36e966-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     acpiapic
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                STORAGE\Volume\{c09ce168-2002-11ec-86ca-806e6f6e6963}#0000000000100000
+Device Description:         Volume
+Class Name:                 Volume
+Class GUID:                 {71a27cdd-812a-11d0-bec7-08002be2092f}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                volume.inf
+Matching Drivers:
+    Driver Name:            volume.inf
+    Provider Name:          Microsoft
+    Class Name:             Volume
+    Class GUID:             {71a27cdd-812a-11d0-bec7-08002be2092f}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     STORAGE\Volume
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                USB\VID_8087&PID_0029\5&295449fd&0&10
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\PNP0C14\TestDev
+Device Description:         Microsoft Windows Management Interface for ACPI
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                wmiacpi.inf
+Matching Drivers:
+    Driver Name:            wmiacpi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C14
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0A08\0
+Device Description:         PCI Express Root Complex
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                pci.inf
+Matching Drivers:
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0A08
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0A03
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\PNP0C0C\2&daba3ff&0
+Device Description:         ACPI Power Button
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C0C
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI_HAL\PNP0C08\0
+Device Description:         Microsoft ACPI-Compliant System
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                acpi.inf
+Matching Drivers:
+    Driver Name:            acpi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.120
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C08
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HTREE\ROOT\0
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Started
+
+Instance ID:                USB\VID_2B7E&PID_0134\200901010001
+Device Description:         USB Composite Device
+Class Name:                 USB
+Class GUID:                 {36fc9e60-c465-11cf-8056-444553540000}
+Manufacturer Name:          (Standard USB Host Controller)
+Status:                     Started
+Driver Name:                usb.inf
+Matching Drivers:
+    Driver Name:            usb.inf
+    Provider Name:          Microsoft
+    Class Name:             USB
+    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\COMPOSITE
+    Driver Rank:            00FF2003
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\BasicRender\0000
+Device Description:         Microsoft Basic Render Driver
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                basicrender.inf
+Matching Drivers:
+    Driver Name:            basicrender.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\BasicRender
+    Driver Rank:            00FB0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI_HAL\UEFI\0
+Device Description:         Microsoft UEFI-Compliant System
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                uefi.inf
+Matching Drivers:
+    Driver Name:            uefi.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI_HAL\UEFI
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HID\INT33D2&Col02\6&231babf5&0&0001
+Device Description:         HID-compliant consumer control device
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                hidserv.inf
+Matching Drivers:
+    Driver Name:            hidserv.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_UP:000C_U:0001
+    Driver Rank:            00FF0004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1005
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\INT34C5\2&daba3ff&0
+Device Description:         Intel(R) Serial IO GPIO Host Controller - INT34C5
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Intel Corporation
+Status:                     Started
+Driver Name:                oem2.inf
+Matching Drivers:
+    Driver Name:            oem2.inf
+    Original Name:          ialpss2_gpio2_tgl.inf
+    Provider Name:          Intel Corporation
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         07/13/2021 30.100.2129.8
+    Signer Name:            Microsoft Windows Hardware Compatibility Publisher
+    Matching Device ID:     ACPI\INT34C5
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                {30ebfbf8-df5f-4d4d-9fc5-a26c7fd1df4a}\GPIO_Buttons\6&231babf5&0&0
+Device Description:         Sideband GPIO Buttons Injection Device
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                msgpiowin32.inf
+Matching Drivers:
+    Driver Name:            msgpiowin32.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     {30ebfbf8-df5f-4d4d-9fc5-a26c7fd1df4a}\GPIO_Buttons
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\MSFT0101\1
+Device Description:         Trusted Platform Module 2.0
+Class Name:                 SecurityDevices
+Class GUID:                 {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+Manufacturer Name:          (Standard)
+Status:                     Started
+Driver Name:                tpm.inf
+Matching Drivers:
+    Driver Name:            tpm.inf
+    Provider Name:          Microsoft
+    Class Name:             SecurityDevices
+    Class GUID:             {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+    Driver Version:         06/21/2006 10.0.22000.120
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\MSFT0101
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            tpm.inf
+    Provider Name:          Microsoft
+    Class Name:             SecurityDevices
+    Class GUID:             {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+    Driver Version:         06/21/2006 10.0.22000.120
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *MSFT0101
+    Driver Rank:            00FF0002
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\FixedButton\2&daba3ff&0
+Device Description:         ACPI Fixed Feature Button
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\FixedButton
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C02\37
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INTC1040\2&daba3ff&0
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\INT33A1\1
+Device Description:         Intel(R) Power Engine Plug-in
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Intel Corporation
+Status:                     Started
+Driver Name:                intelpep.inf
+Matching Drivers:
+    Driver Name:            intelpep.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.120
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ACPI\INT33A1
+    Driver Rank:            00FF0001
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0D80
+    Driver Rank:            00FF2000
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_9A23&SUBSYS_C840144D&REV_01\3&11583659&0&38
+Device Description:         PCI Express Root Port
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                pci.inf
+Matching Drivers:
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604&DT_4
+    Driver Rank:            00FF2007
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604
+    Driver Rank:            00FF2008
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_A0EF&SUBSYS_C840144D&REV_20\3&11583659&0&A2
+Device Description:         PCI standard RAM Controller
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0500
+    Driver Rank:            00FF2006
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0C02\IoTraps
+Device Description:         Motherboard resources
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0C02
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_A0A4&SUBSYS_C840144D&REV_20\3&11583659&0&FD
+Device Description:         PCI Device
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                SWD\MMDEVAPI\MicrosoftGSWavetableSynth
+Device Description:         Microsoft GS Wavetable Synth
+Class Name:                 SoftwareDevice
+Class GUID:                 {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_swdevice.inf
+Matching Drivers:
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_A082&SUBSYS_C840144D&REV_20\3&11583659&0&F8
+Device Description:         PCI standard ISA bridge
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0601
+    Driver Rank:            00FF2006
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INT33D2\5&15d725f4&0
+Device Description:         GPIO Buttons Driver
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                msgpiowin32.inf
+Matching Drivers:
+    Driver Name:            msgpiowin32.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PNP0C40
+    Driver Rank:            00FF2001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INTC1043\SNS1
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\INTC1043\SNS2
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\INTC1043\SNS3
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ACPI\MSF0001\4&2911319&0
+Device Description:         Standard PS/2 Keyboard
+Class Name:                 Keyboard
+Class GUID:                 {4d36e96b-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard keyboards)
+Status:                     Started
+Driver Name:                keyboard.inf
+Matching Drivers:
+    Driver Name:            keyboard.inf
+    Provider Name:          Microsoft
+    Class Name:             Keyboard
+    Class GUID:             {4d36e96b-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0303
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\PNP0000\4&2911319&0
+Device Description:         Programmable interrupt controller
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Stopped
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP0000
+    Driver Rank:            00FF0002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\NdisVirtualBus\0000
+Device Description:         NDIS Virtual Network Adapter Enumerator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                ndisvirtualbus.inf
+Matching Drivers:
+    Driver Name:            ndisvirtualbus.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\NdisVirtualBus
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                HID\INT33D2&Col03\6&231babf5&0&0002
+Device Description:         HID-compliant system controller
+Class Name:                 HIDClass
+Class GUID:                 {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                input.inf
+Matching Drivers:
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_UP:0001_U:0080
+    Driver Rank:            00FF1004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1005
+    Driver Status:          Outranked
+
+Instance ID:                HID\ZNT0001&Col01\5&374ce970&0&0000
+Device Description:         HID-compliant mouse
+Class Name:                 Mouse
+Class GUID:                 {4d36e96f-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                msmouse.inf
+Matching Drivers:
+    Driver Name:            msmouse.inf
+    Provider Name:          Microsoft
+    Class Name:             Mouse
+    Class GUID:             {4d36e96f-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE_SYSTEM_MOUSE
+    Driver Rank:            00FF1004
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            input.inf
+    Provider Name:          Microsoft
+    Class Name:             HIDClass
+    Class GUID:             {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     HID_DEVICE
+    Driver Rank:            00FF1006
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_A0BE&SUBSYS_C840144D&REV_20\3&11583659&0&E0
+Device Description:         PCI Express Root Port
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                pci.inf
+Matching Drivers:
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604&DT_4
+    Driver Rank:            00FF2007
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604
+    Driver Rank:            00FF2008
+    Driver Status:          Outranked
+
+Instance ID:                PCI\VEN_8086&DEV_A0E0&SUBSYS_C840144D&REV_20\3&11583659&0&B0
+Device Description:         PCI Simple Communications Controller
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                PCI\VEN_8086&DEV_9A09&SUBSYS_00000000&REV_01\3&11583659&0&30
+Device Description:         PCI Express Root Port
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                pci.inf
+Matching Drivers:
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604&DT_4
+    Driver Rank:            00FF2005
+    Driver Status:          Best Ranked / Installed
+
+    Driver Name:            pci.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.41
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0604
+    Driver Rank:            00FF2006
+    Driver Status:          Outranked
+
+Instance ID:                ACPI\SAM0428\2&daba3ff&0
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                SWD\RADIO\{030E5960-722B-4DE1-A735-A20BF134ACF3}
+Device Description:         Wi-Fi
+Class Name:                 SoftwareDevice
+Class GUID:                 {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                c_swdevice.inf
+Matching Drivers:
+    Driver Name:            c_swdevice.inf
+    Provider Name:          Microsoft
+    Class Name:             SoftwareDevice
+    Class GUID:             {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     SWD\GenericRaw
+    Driver Rank:            00FF3000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_9A03&SUBSYS_C840144D&REV_01\3&11583659&0&20
+Device Description:         PCI Data Acquisition and Signal Processing Controller
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                PCI\VEN_8086&DEV_A0E8&SUBSYS_C840144D&REV_20\3&11583659&0&A8
+Device Description:         Intel(R) Serial IO I2C Host Controller - A0E8
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Intel Corporation
+Status:                     Started
+Driver Name:                oem3.inf
+Matching Drivers:
+    Driver Name:            oem3.inf
+    Original Name:          ialpss2_i2c_tgl.inf
+    Provider Name:          Intel Corporation
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         07/13/2021 30.100.2129.8
+    Signer Name:            Microsoft Windows Hardware Compatibility Publisher
+    Matching Device ID:     PCI\VEN_8086&DEV_A0E8
+    Driver Rank:            00FF2001
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\mssmbios\0000
+Device Description:         Microsoft System Management BIOS Driver
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                mssmbios.inf
+Matching Drivers:
+    Driver Name:            mssmbios.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\mssmbios
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                DISPLAY\CSO1304\4&e819fa7&0&UID0
+Device Description:         Generic PnP Monitor
+Class Name:                 Monitor
+Class GUID:                 {4d36e96e-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard monitor types)
+Status:                     Started
+Driver Name:                monitor.inf
+Matching Drivers:
+    Driver Name:            monitor.inf
+    Provider Name:          Microsoft
+    Class Name:             Monitor
+    Class GUID:             {4d36e96e-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     *PNP09FF
+    Driver Rank:            00FF2000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                SCSI\Disk&Ven_NVMe&Prod_SAMSUNG_MZVLB256\5&3e30f68&0&000000
+Device Description:         SAMSUNG MZVLB256HBHQ-000
+Class Name:                 DiskDrive
+Class GUID:                 {4d36e967-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard disk drives)
+Status:                     Started
+Driver Name:                disk.inf
+Matching Drivers:
+    Driver Name:            disk.inf
+    Provider Name:          Microsoft
+    Class Name:             DiskDrive
+    Class GUID:             {4d36e967-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     GenDisk
+    Driver Rank:            00FF0007
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                USB\VID_2B7E&PID_0134&MI_00\6&132f5730&0&0000
+Device Description:         720p HD Camera
+Class Name:                 Camera
+Class GUID:                 {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                usbvideo.inf
+Matching Drivers:
+    Driver Name:            usbvideo.inf
+    Provider Name:          Microsoft
+    Class Name:             Camera
+    Class GUID:             {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+    Driver Version:         06/21/2006 10.0.22000.176
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\Class_0e
+    Driver Rank:            00FF2002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ACPI\INTC1051\2&daba3ff&0
+Device Description:         Unknown
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                PCI\VEN_8086&DEV_9A14&SUBSYS_C840144D&REV_01\3&11583659&0&00
+Device Description:         PCI standard host CPU bridge
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                machine.inf
+Matching Drivers:
+    Driver Name:            machine.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     PCI\CC_0600
+    Driver Rank:            00FF2006
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                USB\ROOT_HUB30\4&30bf25db&0&0
+Device Description:         USB Root Hub (USB 3.0)
+Class Name:                 USB
+Class GUID:                 {36fc9e60-c465-11cf-8056-444553540000}
+Manufacturer Name:          (Standard USB HUBs)
+Status:                     Started
+Driver Name:                usbhub3.inf
+Matching Drivers:
+    Driver Name:            usbhub3.inf
+    Provider Name:          Microsoft
+    Class Name:             USB
+    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}
+    Driver Version:         07/03/2021 10.0.22000.65
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     USB\ROOT_HUB30
+    Driver Rank:            00800002
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                ROOT\SYSTEM\0000
+Device Description:         Plug and Play Software Device Enumerator
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          (Standard system devices)
+Status:                     Started
+Driver Name:                swenum.inf
+Matching Drivers:
+    Driver Name:            swenum.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/04/2021 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\SWENUM
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
+Instance ID:                PCI\VEN_8086&DEV_9A1B&SUBSYS_00000000&REV_01\3&11583659&0&6A
+Device Description:         Universal Serial Bus (USB) Controller
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Problem Status:             0xC0000490
+
+Instance ID:                ROOT\RDPBUS\0000
+Device Description:         Remote Desktop Device Redirector Bus
+Class Name:                 System
+Class GUID:                 {4d36e97d-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Microsoft
+Status:                     Started
+Driver Name:                rdpbus.inf
+Matching Drivers:
+    Driver Name:            rdpbus.inf
+    Provider Name:          Microsoft
+    Class Name:             System
+    Class GUID:             {4d36e97d-e325-11ce-bfc1-08002be10318}
+    Driver Version:         06/21/2006 10.0.22000.1
+    Signer Name:            Microsoft Windows
+    Matching Device ID:     ROOT\RDPBUS
+    Driver Rank:            00FF0000
+    Driver Status:          Best Ranked / Installed
+
