@@ -4,23 +4,24 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "command": "C:\\Ruby31-x64\\msys64\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g",
                 "${workspaceFolder}\\main.c",
                 "${workspaceFolder}\\my_function.c",
                 "${workspaceFolder}\\test_function.c",
+                "${workspaceFolder}\\driver_info.c",
                 "-o",
                 "${workspaceFolder}\\test.exe"
             ],
             "options": {
-                "cwd": "C:\\msys64\\mingw64\\bin"
+                "cwd": "C:\\Ruby31-x64\\msys64\\mingw64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: C:\\msys64\\mingw64\\bin\\gcc.exe"
+            "detail": "compiler: C:\\Ruby31-x64\\msys64\\mingw64\\bin\\gcc.exe"
         },    
     ]
 }
