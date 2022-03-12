@@ -30,7 +30,7 @@ struct instance
  * 用 fgets 的方法读取
  */
 void
-store_driver_info_fgets(void)
+store_driver_info(void)
 {
 
     /* 读取时触发，仅能触发一次。因此数据坐标不可用 */

@@ -22,7 +22,7 @@
 extern "C" {
 #endif /* __cplusplus */
 
-void store_driver_info_fgets(void);
+void store_driver_info(void);
 
 #ifdef __cplusplus
 }
