@@ -33,8 +33,8 @@ void
 store_driver_info(void)
 {
 
-    /* 读取时触发，仅能触发一次。因此数据坐标不可用 */
-    FILE *pPipe = _popen("c:\\windows\\system32\\pnputil.exe \
+    /* 使用 en-us */
+    FILE *pPipe = _popen("chcp 437 & c:\\windows\\system32\\pnputil.exe \
                          /enum-devices /drivers", "rt");
     if (pPipe == NULL) {
         exit(1);

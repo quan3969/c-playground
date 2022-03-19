@@ -8,6 +8,8 @@
             "args": [
                 "-g",
                 "${workspaceFolder}\\*.c",
+                "${workspaceFolder}\\driver_info\\*.c",
+                "${workspaceFolder}\\sort_token\\*.c",
                 "-o",
                 "${workspaceFolder}\\test.exe"
             ],
