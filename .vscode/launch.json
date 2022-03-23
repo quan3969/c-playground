@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}\\test.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "C:\\Ruby31-x64\\msys64\\mingw64\\bin",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",

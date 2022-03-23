@@ -25,12 +25,15 @@
 #include <stdint.h>
 #include <process.h>
 #include <string.h>
+#include <error.h>
+#include <direct.h>
 
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
 void sort_token(void);
+char *read_file(char *filename);
 
 #ifdef __cplusplus
 }
