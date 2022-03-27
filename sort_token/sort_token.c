@@ -30,17 +30,59 @@ sort_token(void)
 
     sprintf(file_direct, "%s\\sort_token\\Token.h", file_cwd);
 
-    char *file_contents = read_file(file_direct);
+    char *file_content = read_file(file_direct);
 
-    if (file_contents == NULL)
+    if (file_content == NULL)
     {
         exit(1);
     }
 
-    printf(file_contents);
+    printf(file_content);
 
     /* Free memory */
-    free(file_contents);
+    free(file_content);
+}
+
+/*
+ * 将字符串中的 token 按字母顺序排列
+ * 结束后需要释放内存 free()
+ * 
+ * [in] 需要排序的字符串
+ * [out] 排序好的字符串
+ */
+char
+*sort_file(char *ori_content)
+{
+
+    int file_length;
+    char *sort_content;
+
+    file_length = strlen(ori_content);
+    sort_content = malloc(sizeof(char) * (file_length+1));
+
+    get_info();
+
+    return sort_content;
+
+}
+
+/*
+ * 遍历原始字符串，存储信息：
+ * 1. token 开始位置
+ * 2. token 长度
+ * 3. token name 开始位置
+ * 4. token name 长度
+ * 5. token value 开始位置，
+ * 6. token value 长度
+ * token 数量 num
+ * 
+ * [in] 字符串
+ * [out] info[num][6]
+ */
+void
+get_info(void)
+{
+
 }
 
 /*
