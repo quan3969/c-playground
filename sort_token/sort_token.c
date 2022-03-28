@@ -60,28 +60,74 @@ char
     file_length = strlen(ori_content);
     sort_content = malloc(sizeof(char) * (file_length+1));
 
-    get_info();
+    get_token_num();
+    get_token_info(ori_content, 100);
 
     return sort_content;
 
 }
 
 /*
+ * #define AMI_COMPATIBILITY_PKG_VERSION	0x2d
+ * ^       ^                                ^
+ * 1       3                                5
+ * 
  * 遍历原始字符串，存储信息：
  * 1. token 开始位置
  * 2. token 长度
- * 3. token name 开始位置
- * 4. token name 长度
- * 5. token value 开始位置，
- * 6. token value 长度
- * token 数量 num
+ * 3. name 开始位置
+ * 4. name 长度
+ * 5. value 开始位置
+ * 6. value 长度
  * 
  * [in] 字符串
- * [out] info[num][6]
+ * [in] token 结构体数组指针
+ * [in] token 数量
  */
 void
-get_info(void)
+get_token_info(char *ori_content, int token_num)
 {
+    struct token {
+        char *token_pd;
+        char *name_pd;
+        char *value_pd;
+        int token_length;
+        int name_length;
+        int value_length;
+    };
+
+    struct token token_info[token_num];
+
+    char *str_pd_now;
+
+    /* 第一个 #define 是头文件声明 */
+    str_pd_now = strstr(ori_content, "#define");
+
+    for (int i = 0; i < token_num; i ++)
+    {
+        /* 指针位置指向下一个 token 开始的地方 */
+        str_pd_now = strstr(str_pd_now, "#define");
+
+        /* token 开始位置 */
+        token_info[i].token_pd = str_pd_now;
+
+        /* name 开始位置 */
+        token_info[i].name_pd = strchr(str_pd_now, ' ') + 1;
+
+        /* value 开始位置 */
+        token_info[i].value_pd = strchr(str_pd_now, '\t') + 1;
+
+        /* name 长度 */
+        token_info[i].name_length = token_info[i].value_pd - 
+                                    token_info[i].name_pd;
+
+        /* value 长度 */
+        token_info[i].value_length = strchr(str_pd_now, '\n') - 
+                                     token_info[i].value_pd;
+        
+        /* token 长度 */
+        token_info[i].token_length = strchr(str_pd_now, '\n') - str_pd_now;
+    }
 
 }
 
