@@ -7,9 +7,10 @@
             "command": "C:\\Ruby31-x64\\msys64\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g",
-                "${workspaceFolder}\\*.c",
-                "${workspaceFolder}\\driver_info\\*.c",
-                "${workspaceFolder}\\sort_token\\*.c",
+                "${workspaceFolder}\\c_example_code\\third_angle.c",
+                // "${workspaceFolder}\\*.c",
+                // "${workspaceFolder}\\driver_info\\*.c",
+                // "${workspaceFolder}\\sort_token\\*.c",
                 "-o",
                 "${workspaceFolder}\\test.exe"
             ],

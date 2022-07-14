@@ -60,8 +60,8 @@ char
     file_length = strlen(ori_content);
     sort_content = malloc(sizeof(char) * (file_length+1));
 
-    get_token_num();
-    get_token_info(ori_content, 100);
+    // get_token_num();
+    // get_token_info(ori_content, 100);
 
     return sort_content;
 
