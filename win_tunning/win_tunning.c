@@ -175,24 +175,22 @@ int main()
         return 1;
     }
 
-/*     dwRet = RegQueryValueEx( HKEY_CURRENT_USER,
-                             lpSubKey,
-                             NULL,
-                             NULL,
-                             achValue,
-                             &cchValue ); */
-
-    RegGetValue(hKey,
-                NULL,
+    RegGetValue(hKey, NULL, 
                 TEXT("DisableAutoplay"),
-                RRF_RT_ANY,
+                RRF_RT_REG_DWORD,
                 NULL,
                 achValue,
                 &cchValue);
     DWORD dwdata = 1234;
 
     RegCreateKey(hKey, TEXT("sdfsdf"), &hKey);
-    RegSetValue(hKey, TEXT(""), REG_SZ, TEXT("MSTakeNoAction"), sizeof("MSTakeNoAction"));
+
+    /* Set Key */
+    RegSetValue(hKey, TEXT(""), 
+                REG_SZ, TEXT("TEST"), 
+                sizeof("TEST"));
+
+    /* Create Value */
     RegSetValueEx(hKey,
                 TEXT("SDFJL"), 
                 0,
@@ -200,7 +198,10 @@ int main()
                 (LPBYTE)&dwdata,
                 sizeof(dwdata));
 
+    /* Delete Key */
     RegDeleteKey(hKey, TEXT("sdfsdf"));
+
+    /* Delete Key with Value */
     RegDelNode(hKey, TEXT(""));
 
     RegCloseKey(hKey);
