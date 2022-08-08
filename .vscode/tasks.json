@@ -7,8 +7,8 @@
             "command": "C:\\Ruby31-x64\\msys64\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g",
-                "${workspaceFolder}\\c_example_code\\dynamic_2d_array.c",
-                // "${workspaceFolder}\\win_tunning\\win_tunning.c",
+                // "${workspaceFolder}\\c_example_code\\dynamic_2d_array.c",
+                "${workspaceFolder}\\win_tunning\\*.c",
                 // "${workspaceFolder}\\*.c",
                 // "${workspaceFolder}\\driver_info\\*.c",
                 // "${workspaceFolder}\\sort_token\\*.c",
