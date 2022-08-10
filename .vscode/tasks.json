@@ -7,7 +7,7 @@
             "command": "C:\\Ruby31-x64\\msys64\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g",
-                "${workspaceFolder}\\c_example_code\\print_debugging.c",
+                "${workspaceFolder}\\c_example_code\\increase_size_dynamic_2d_array.c",
                 // "${workspaceFolder}\\win_tunning\\*.c",
                 // "${workspaceFolder}\\*.c",
                 // "${workspaceFolder}\\driver_info\\*.c",
