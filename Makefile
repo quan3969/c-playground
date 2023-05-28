@@ -1,5 +1,5 @@
 all:
-	gcc -g *.c -o test
+	gcc -g main.c -o main
 
 clean:
-	rm -rf test.exe 
+	rm -rf main
