@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 1000
@@ -7,14 +8,14 @@ typedef struct node {
     struct node* next;
 } Node;
 
-typedef struct queue {
+typedef struct quene {
     int items[MAX_SIZE];
     int front;
     int rear;
-} Queue;
+} Quene;
 
 Node* createNode(int v) {
-    Node* newNode = malloc(sizeof(Node));
+    Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->vertex = v;
     newNode->next = NULL;
     return newNode;
@@ -29,40 +30,37 @@ void addEdge(Node* graph[], int s, int d) {
     graph[d] = newNode;
 }
 
-Queue* createQueue() {
-    Queue* q = malloc(sizeof(Queue));
+Quene* createQuene() {
+    Quene* q = (Quene*)malloc(sizeof(Quene));
     q->front = -1;
     q->rear = -1;
     return q;
 }
 
-int isEmpty(Queue* q) {
+int isEmpty(Quene* q) {
     if (q->rear == -1)
         return 1;
     else
         return 0;
 }
 
-void enqueue(Queue* q, int value) {
+void enquene(Quene* q, int value) {
     if (q->rear == MAX_SIZE - 1)
-        printf("队列已满.\n");
+        printf("Quene is full.\n");
     else {
         if (q->front == -1)
             q->front = 0;
-        q->rear++;
-        q->items[q->rear] = value;
+        q->items[++q->rear] = value;
     }
 }
 
-int dequeue(Queue* q) {
+int dequene(Quene* q) {
     int item;
     if (isEmpty(q)) {
-        printf("队列为空.\n");
+        printf("Quene is empty.\n");
         item = -1;
-    }
-    else {
-        item = q->items[q->front];
-        q->front++;
+    } else {
+        item = q->items[q->front++];
         if (q->front > q->rear) {
             q->front = q->rear = -1;
         }
@@ -71,16 +69,16 @@ int dequeue(Queue* q) {
 }
 
 void bfs(Node* graph[], int startVertex, int n) {
-    int visited[n];
+    int* visited = (int*)malloc(sizeof(int) * n);
     for (int i = 0; i < n; i++)
         visited[i] = 0;
-
-    Queue* q = createQueue();
+    
+    Quene* q = createQuene();
     visited[startVertex] = 1;
-    enqueue(q, startVertex);
+    enquene(q, startVertex);
 
     while (!isEmpty(q)) {
-        int currentVertex = dequeue(q);
+        int currentVertex = dequene(q);
         printf("%d ", currentVertex);
 
         Node* temp = graph[currentVertex];
@@ -88,19 +86,21 @@ void bfs(Node* graph[], int startVertex, int n) {
             int adjVertex = temp->vertex;
             if (visited[adjVertex] == 0) {
                 visited[adjVertex] = 1;
-                enqueue(q, adjVertex);
+                enquene(q, adjVertex);
             }
             temp = temp->next;
         }
     }
+
+    free(q);
+    free(visited);
 }
 
 int main() {
-    int n = 6;
-    Node* graph[n];
-    for (int i = 0; i < n; i++)
+    Node* graph[6];
+    for (int i = 0; i < 6; i++)
         graph[i] = NULL;
-
+    
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 2);
     addEdge(graph, 1, 2);
@@ -110,8 +110,7 @@ int main() {
     addEdge(graph, 3, 4);
     addEdge(graph, 4, 5);
 
-    printf("BFS 算法的结果：\n");
-    bfs(graph, 0, n);
+    bfs(graph, 0, 6);
 
     return 0;
 }
