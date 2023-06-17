@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 1000
@@ -80,10 +81,8 @@ void dfs(Node* graph[], int start, int n) {
 }
 
 int main() {
-    int num_vertices = 6;
-    Node* graph[num_vertices];
-
-    for (int i = 0; i < num_vertices; i++) {
+    Node* graph[6];
+    for (int i = 0; i < 6; i++) {
         graph[i] = NULL;
     }
 
@@ -95,17 +94,7 @@ int main() {
     add_edge(graph, 3, 4);
     add_edge(graph, 3, 5);
 
-    dfs(graph, 2, num_vertices);
-
-    for (int i = 0; i < num_vertices; i++) {
-        Node* temp = graph[i];
-        Node* prev;
-        while (temp != NULL) {
-            prev = temp;
-            temp = temp->next;
-            free(prev);
-        }
-    }
+    dfs(graph, 2, 6);
 
     return 0;
 }

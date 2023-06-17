@@ -8,77 +8,72 @@ typedef struct node {
     struct node* next;
 } Node;
 
-typedef struct quene {
+typedef struct {
     int items[MAX_SIZE];
     int front;
     int rear;
 } Quene;
 
-Node* createNode(int v) {
-    Node* newNode = (Node*)malloc(sizeof(Node));
-    newNode->vertex = v;
-    newNode->next = NULL;
-    return newNode;
+Node* create_node(int v) {
+    Node* node = (Node*)malloc(sizeof(Node));
+    node->vertex = v;
+    node->next = NULL;
+    return node;
 }
 
-void addEdge(Node* graph[], int s, int d) {
-    Node* newNode = createNode(d);
-    newNode->next = graph[s];
-    graph[s] = newNode;
-    newNode = createNode(s);
-    newNode->next = graph[d];
-    graph[d] = newNode;
+void add_edge(Node* graph[], int d, int s) {
+    Node* node = create_node(s);
+    node->next = graph[d];
+    graph[d] = node;
+
+    node = create_node(d);
+    node->next = graph[s];
+    graph[s] = node;
 }
 
-Quene* createQuene() {
-    Quene* q = (Quene*)malloc(sizeof(Quene));
-    q->front = -1;
-    q->rear = -1;
-    return q;
+Quene* init_quene() {
+    Quene* quene = (Quene*)malloc(sizeof(Quene));
+    quene->front = quene->rear = -1;
+    return quene;
 }
 
-int isEmpty(Quene* q) {
-    if (q->rear == -1)
-        return 1;
-    else
-        return 0;
+int is_empty(Quene* quene) {
+    return (quene->rear == -1) ? 1 : 0;
 }
 
-void enquene(Quene* q, int value) {
-    if (q->rear == MAX_SIZE - 1)
-        printf("Quene is full.\n");
-    else {
-        if (q->front == -1)
-            q->front = 0;
-        q->items[++q->rear] = value;
-    }
-}
-
-int dequene(Quene* q) {
-    int item;
-    if (isEmpty(q)) {
-        printf("Quene is empty.\n");
-        item = -1;
+void enquene(Quene* quene, int value) {
+    if (quene->rear == MAX_SIZE - 1) {
+        return;
     } else {
-        item = q->items[q->front++];
-        if (q->front > q->rear) {
-            q->front = q->rear = -1;
-        }
+        if (quene->front == -1)
+            quene->front = 0;
+        quene->items[++quene->rear] = value;
     }
-    return item;
+}
+
+int dequene(Quene* quene) {
+    int value;
+    if (is_empty(quene))
+        value = -1;
+    else {
+        value = quene->items[quene->front++];
+        if (quene->front > quene->rear)
+            quene->front = quene->rear = -1;
+    }
+    return value;
 }
 
 void bfs(Node* graph[], int startVertex, int n) {
-    int* visited = (int*)malloc(sizeof(int) * n);
+    unsigned char* visited = (unsigned char*)malloc(sizeof(unsigned char) * n);
     for (int i = 0; i < n; i++)
         visited[i] = 0;
     
-    Quene* q = createQuene();
+    Quene* quene = init_quene();
     visited[startVertex] = 1;
-    enquene(q, startVertex);
+    enquene(quene, startVertex);
 
-    while (!isEmpty(q)) {
-        int currentVertex = dequene(q);
+    while (!is_empty(quene)) {
+        int currentVertex = dequene(quene);
         printf("%d ", currentVertex);
 
         Node* temp = graph[currentVertex];
@@ -86,20 +81,21 @@ void bfs(Node* graph[], int startVertex, int n) {
             int adjVertex = temp->vertex;
             if (visited[adjVertex] == 0) {
                 visited[adjVertex] = 1;
-                enquene(q, adjVertex);
+                enquene(quene, adjVertex);
             }
             temp = temp->next;
         }
     }
 
-    free(q);
     free(visited);
+    free(quene);
 }
 
 int main() {
     Node* graph[6];
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 6; i++) {
         graph[i] = NULL;
+    }
     
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 2);
