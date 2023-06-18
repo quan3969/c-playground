@@ -1,15 +1,13 @@
 
 #include <stdio.h>
 
-void swap(int *a, int *b)
-{
+void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-int partition(int arr[], int low, int high)
-{
+int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = (low - 1);
     for (int j = low; j <= high - 1; j++) {
@@ -22,8 +20,7 @@ int partition(int arr[], int low, int high)
     return (i + 1);
 }
 
-void quicksort(int arr[], int low, int high)
-{
+void quicksort(int arr[], int low, int high) {
     if (low < high) {
         int pi = partition(arr, low, high);
         quicksort(arr, low, pi - 1);
@@ -31,8 +28,7 @@ void quicksort(int arr[], int low, int high)
     }
 }
 
-int main()
-{
+int main() {
     int arrToSort[5] = {45, 23, 12, 25, 66};
     quicksort(arrToSort, 0, 4);
     return 0;
