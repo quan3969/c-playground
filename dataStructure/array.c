@@ -1,71 +1,65 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 typedef struct {
     int* items;
-    size_t front;
-    size_t back;
-    size_t capacity;
+    int front;
+    int back;
+    int capacity;
 } Array;
 
 void init(Array* a) {
-    a->front = 0;
-    a->back = 0;
+    a->back = a->front = 0;
     a->capacity = 10;
-    a->items = malloc(a->capacity * sizeof(int));
+    a->items = malloc(sizeof(int) * a->capacity);
 }
 
 void clear(Array* a) {
     free(a->items);
 }
 
+int is_empty(Array* a) {
+    return (a->front == a->back);
+}
+
 void push_back(Array* a, int item) {
     if (a->back == a->capacity) {
         a->capacity *= 2;
-        a->items = realloc(a->items, a->capacity * sizeof(int));
+        a->items = realloc(a->items, sizeof(a->capacity));
     }
     a->items[a->back++] = item;
 }
 
 int pop_back(Array* a) {
-    if (a->back == a->front) {
-        printf("Array underflow\n");
+    if (is_empty(a)) {
+        printf("Array is empty.\n");
         return -1;
     }
     return a->items[--a->back];
 }
 
 int pop_front(Array* a) {
-    if (a->back == a->front) {
-        printf("Array underflow\n");
+    if (is_empty(a)) {
+        printf("Array is empty.\n");
         return -1;
     }
     return a->items[a->front++];
 }
 
-int is_empty(Array* a) {
-    return (a->front == a->back);
-}
-
 int main() {
-    Array a;
-    init(&a);
 
-    push_back(&a, 1);
-    push_back(&a, 2);
-    int item = pop_back(&a);
-    printf("%d\n", item);
-    item = pop_back(&a);
-    printf("%d\n", item);
+    Array* arr;
+    init(arr);
 
-    push_back(&a, 4);
-    push_back(&a, 5);
-    item = pop_front(&a);
-    printf("%d\n", item);
-    item = pop_front(&a);
-    printf("%d\n", item);
+    push_back(arr, 34);
+    push_back(arr, 90);
+    push_back(arr, 109);
+    push_back(arr, 23);
+    push_back(arr, 678);
+    push_back(arr, 954);
 
-    clear(&a);
+    clear(arr);
 
     return 0;
 }
