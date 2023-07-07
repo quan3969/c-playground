@@ -9,60 +9,61 @@ typedef struct {
     int capacity;
 } Array;
 
-void init(Array* a) {
-    a->back = a->front = 0;
-    a->capacity = 10;
-    a->items = malloc(sizeof(int) * a->capacity);
+Array* create(int size) {
+    Array* arr = malloc(sizeof(Array));
+    arr->front = arr->back = 0;
+    arr->capacity = size;
+    arr->items = malloc(sizeof(int) * arr->capacity);
+    return arr;
 }
 
-void clear(Array* a) {
-    free(a->items);
+void clear(Array* arr) {
+    free(arr->items);
+    arr->items = NULL;
+    free(arr);
 }
 
-int is_empty(Array* a) {
-    return (a->front == a->back);
+int is_empty(Array* arr) {
+    return (arr->front == arr->back);
 }
 
-void push_back(Array* a, int item) {
-    if (a->back == a->capacity) {
-        a->capacity *= 2;
-        a->items = realloc(a->items, sizeof(a->capacity));
+void push_back(Array* arr, int item) {
+    if (arr->back == arr->capacity) {
+        arr->capacity *= 2;
+        arr->items = realloc(arr->items, sizeof(int) * arr->capacity);
     }
-    a->items[a->back++] = item;
+    arr->items[arr->back++] = item;
 }
 
-int pop_back(Array* a) {
-    if (is_empty(a)) {
-        printf("Array is empty.\n");
+int pop_back(Array* arr) {
+    if (is_empty(arr)) {
         return -1;
     }
-    return a->items[--a->back];
+    return arr->items[--arr->back];
 }
 
-int pop_front(Array* a) {
-    if (is_empty(a)) {
-        printf("Array is empty.\n");
+int pop_front(Array* arr) {
+    if (is_empty(arr)) {
         return -1;
     }
-    return a->items[a->front++];
+    return arr->items[arr->front++];
 }
 
-Array* duplicate(Array* src) {
-    Array* dest;
+Array* duplicate(Array* arr) {
+    Array* dest = create(1);
     dest->front = 0;
-    dest->back = src->back - src->front;
-    dest->capacity = src->capacity;
-    dest->items = realloc(dest->items, dest->capacity);
-    for (int i = src->front; i < dest->back; i++) {
-        dest->items[i - src->front] = src->items[i];
+    dest->back = arr->back - arr->front;
+    dest->capacity = arr->capacity;
+    dest->items = realloc(dest->items, sizeof(int) * dest->capacity);
+    for (int i = arr->front; i < arr->back; i++) {
+        dest->items[i - arr->front] = arr->items[i];
     }
     return dest;
 }
 
 int main() {
 
-    Array* arr;
-    init(arr);
+    Array* arr = create(2);
 
     push_back(arr, 34);
     push_back(arr, 90);
