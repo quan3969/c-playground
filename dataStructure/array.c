@@ -47,6 +47,18 @@ int pop_front(Array* a) {
     return a->items[a->front++];
 }
 
+Array* duplicate(Array* src) {
+    Array* dest;
+    dest->front = 0;
+    dest->back = src->back - src->front;
+    dest->capacity = src->capacity;
+    dest->items = realloc(dest->items, dest->capacity);
+    for (int i = src->front; i < dest->back; i++) {
+        dest->items[i - src->front] = src->items[i];
+    }
+    return dest;
+}
+
 int main() {
 
     Array* arr;
