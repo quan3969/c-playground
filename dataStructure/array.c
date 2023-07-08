@@ -49,6 +49,16 @@ int pop_front(Array* arr) {
     return arr->items[arr->front++];
 }
 
+void remove_item(Array* arr, int item) {
+    int i, j;
+    for (i = arr->front, j = arr->front; i < arr->back; i++) {
+        if (arr->items[i] != item) {
+            arr->items[j++] = arr->items[i];
+        }
+    }
+    arr->back = j;
+}
+
 Array* duplicate(Array* arr) {
     Array* dest = create(1);
     dest->front = 0;
