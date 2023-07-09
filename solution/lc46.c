@@ -1,6 +1,6 @@
 /**
  * 46. Permutations
- * https://leetcode.cn/problems/permutations/description/
+ * https://leetcode.cn/problems/permutations/
  * 
  */
 

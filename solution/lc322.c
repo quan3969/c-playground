@@ -1,6 +1,6 @@
 /**
  * 322. Coin Change
- * https://leetcode.cn/problems/coin-change/description/
+ * https://leetcode.cn/problems/coin-change/
  * 
  */
 
