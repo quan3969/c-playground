@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 int binary_search(int arr[], int size, int target) {
-    int lo = 0;
-    int hi = size - 1;
-    while (lo <= hi) {
-        int mid = (lo + hi) / 2;
+    int i = 0;
+    int j = size - 1;
+    while (i < j) {
+        int mid = (i + j) / 2;
         if (arr[mid] == target) {
             return mid;
         } else if (arr[mid] < target) {
-            lo = mid + 1;
+            i = mid + 1;
         } else {
-            hi = mid - 1;
+            j = mid - 1;
         }
     }
     return -1;

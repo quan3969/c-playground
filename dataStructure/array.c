@@ -50,13 +50,16 @@ int pop_front(Array* arr) {
 }
 
 void remove_item(Array* arr, int item) {
-    int i, j;
-    for (i = arr->front, j = arr->front; i < arr->back; i++) {
-        if (arr->items[i] != item) {
-            arr->items[j++] = arr->items[i];
+    int i = arr->front;
+    int j = arr->front;
+    while (j < arr->back) {
+        if (arr->items[j] != item) {
+            arr->items[i] = arr->items[j];
+            i++;
         }
+        j++;
     }
-    arr->back = j;
+    arr->back = i;
 }
 
 Array* duplicate(Array* arr) {
