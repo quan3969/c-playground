@@ -4,6 +4,20 @@
  * 
  */
 
+/*
+void backtrack(res, trk, cur) {
+    if (cur == end) {
+        res.push(trk)
+        return
+    }
+    for (valid n in cur adj) {
+        trk.push(cur)
+        backtrack(res, trk, n)
+        trk.pop
+    }
+}
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

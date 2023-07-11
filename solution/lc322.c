@@ -4,6 +4,16 @@
  * 
  */
 
+/*
+int dp(mono, cur) {
+    if (cur == base case) { return base }
+    if (cur == none case) { return none }
+
+    if (cur in meno) { return meno[cur] }
+    meno[cur] = dp(meno, pre)
+    return meno[cur]
+}
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -6,6 +6,7 @@ void swap(int* a, int* b) {
     *a = *b;
     *b = temp;
 }
+
 void move_zeroes(int nums[], int size) {
     int i = 0, j = 0;
     while (j < size) {

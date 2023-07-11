@@ -4,6 +4,23 @@
  * 
  */
 
+/*
+bool bfs(sta, end) {
+    enquene(sta)
+    vis[sta] = 1
+
+    while (quene not empty) {
+        cur = dequene
+        if cur == end { return true }
+        for (valid nxt in cur adj) {
+            enquene(nxt)
+            vis[nxt] = 1
+        }
+    }
+    return false
+}
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -4,6 +4,20 @@
  * 
  */
 
+/*
+bool dfs(cur, stack, vis) {
+    if cur == end { return true }
+    stack.push(cur)
+    vis{cur} = 1
+
+    for (valid nxt in cur adj) {
+        if (dfs(nxt, track, vis)) { return true }
+        stack.pop
+        vis{nxt} = 0
+    }
+    return false
+}
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
