@@ -3,6 +3,8 @@
 if "%1" == "" goto NoPara
 if "%1" == "/c" goto Clean
 if "%1" == "-c" goto Clean
+if "%1" == "/C" goto Clean
+if "%1" == "-C" goto Clean
 if "%1" == "/b" goto Build
 if "%1" == "-b" goto Build
 

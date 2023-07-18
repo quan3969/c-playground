@@ -1,17 +1,14 @@
 
 #include <stdio.h>
+#include <stdlib.h>
 
-void swap(int* a, int* b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
-void move_zeroes(int nums[], int size) {
+void move_zeroes(int arr[], int size) {
     int i = 0, j = 0;
     while (j < size) {
-        if (nums[j] != 0) {
-            swap(&nums[i], &nums[j]);
+        if (arr[j] != 0) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
             i++;
         }
         j++;
