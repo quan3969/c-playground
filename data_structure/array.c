@@ -3,89 +3,73 @@
 #include <stdlib.h>
 
 typedef struct {
-    int* items;
+    int row;
+    int col;
+} Item;
+
+typedef struct {
+    Item** items;
     int front;
     int back;
-    int capacity;
+    int capa;
 } Array;
 
-Array* create(int size) {
-    Array* arr = malloc(sizeof(Array));
-    arr->front = arr->back = 0;
-    arr->capacity = size;
-    arr->items = malloc(sizeof(int) * arr->capacity);
-    return arr;
+int is_empty(Array* a) {
+    return (a->back == a->front);
 }
 
-void clear(Array* arr) {
-    free(arr->items);
-    arr->items = NULL;
-    free(arr);
-}
-
-int is_empty(Array* arr) {
-    return (arr->front == arr->back);
-}
-
-void push_back(Array* arr, int item) {
-    if (arr->back == arr->capacity) {
-        arr->capacity *= 2;
-        arr->items = realloc(arr->items, sizeof(int) * arr->capacity);
+void push_back(Array* a, Item* m) {
+    if (a->back == a->capa) {
+        a->capa *= 2;
+        a->items = realloc(a->items, sizeof(Array) * a->capa);
     }
-    arr->items[arr->back++] = item;
+    a->items[a->back++] = m;
 }
 
-int pop_back(Array* arr) {
-    if (is_empty(arr)) {
-        return -1;
+Item* pop_back(Array* a) {
+    if (is_empty(a)) {
+        return NULL;
     }
-    return arr->items[--arr->back];
+    return a->items[--a->back];
 }
 
-int pop_front(Array* arr) {
-    if (is_empty(arr)) {
-        return -1;
+Item* pop_front(Array* a) {
+    if (is_empty(a)) {
+        return NULL;
     }
-    return arr->items[arr->front++];
-}
-
-void remove_item(Array* arr, int item) {
-    int i = arr->front;
-    int j = arr->front;
-    while (j < arr->back) {
-        if (arr->items[j] != item) {
-            arr->items[i] = arr->items[j];
-            i++;
-        }
-        j++;
-    }
-    arr->back = i;
-}
-
-Array* duplicate(Array* arr) {
-    Array* dest = create(1);
-    dest->front = 0;
-    dest->back = arr->back - arr->front;
-    dest->capacity = arr->capacity;
-    dest->items = realloc(dest->items, sizeof(int) * dest->capacity);
-    for (int i = arr->front; i < arr->back; i++) {
-        dest->items[i - arr->front] = arr->items[i];
-    }
-    return dest;
+    return a->items[a->front++];
 }
 
 int main() {
 
-    Array* arr = create(2);
+    Array* arr = malloc(sizeof(arr));
+    arr->back = arr->front = 0;
+    arr->capa = 10;
+    arr->items = malloc(sizeof(Item*) * arr->capa);
 
-    push_back(arr, 34);
-    push_back(arr, 90);
-    push_back(arr, 109);
-    push_back(arr, 23);
-    push_back(arr, 678);
-    push_back(arr, 954);
+    Item* m1 = malloc(sizeof(Item));
+    m1->row = 1; m1->col = 1;
 
-    clear(arr);
+    Item* m2 = malloc(sizeof(Item));
+    m2->row = 2; m2->col = 2;
+
+    Item* m3 = malloc(sizeof(Item));
+    m3->row = 3; m3->col = 3;
+
+    push_back(arr, m1);
+    push_back(arr, m2);
+    push_back(arr, m3);
+    
+    Item* temp = pop_back(arr);
+    temp = pop_front(arr);
+    temp = pop_back(arr);
+
+    int res = is_empty(arr);
+
+    for (int i = 0; i < arr->back; i++) {
+        free(arr->items[i]);
+    }
+    free(arr);
 
     return 0;
 }
