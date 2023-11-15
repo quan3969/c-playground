@@ -21,7 +21,7 @@ int is_empty(Array* a) {
 void push_back(Array* a, Item* m) {
     if (a->back == a->capa) {
         a->capa *= 2;
-        a->items = realloc(a->items, sizeof(Array) * a->capa);
+        a->items = realloc(a->items, (sizeof(Item*) * a->capa));
     }
     a->items[a->back++] = m;
 }
@@ -42,7 +42,7 @@ Item* pop_front(Array* a) {
 
 int main() {
 
-    Array* arr = malloc(sizeof(arr));
+    Array* arr = malloc(sizeof(Array));
     arr->back = arr->front = 0;
     arr->capa = 10;
     arr->items = malloc(sizeof(Item*) * arr->capa);
@@ -59,16 +59,18 @@ int main() {
     push_back(arr, m1);
     push_back(arr, m2);
     push_back(arr, m3);
-    
+
     Item* temp = pop_back(arr);
+    free(temp); // free after use
     temp = pop_front(arr);
-    temp = pop_back(arr);
+    free(temp); // free after use
 
     int res = is_empty(arr);
 
-    for (int i = 0; i < arr->back; i++) {
-        free(arr->items[i]);
+    for (int i = arr->front; i < arr->back; i++) {
+        free(arr->items[i]); // free remain
     }
+    free(arr->items);
     free(arr);
 
     return 0;
